@@ -1,0 +1,13 @@
+# Question 1: What is your GitHub URL?
+# Answer: https://github.com/maraf-dev
+# Question 2: What version is the requests library installed on the system? Is there none at all? Or is it already installed?
+# Answer: version 2.25.1
+# Question 3: Is requests installed? If so, what version is the requests library installed in the virtualenv?
+# Answer: version 2.31.0
+# Question 4: What is the difference between the virtual environment and the not virtual environment python?
+# Answer: The virtual environment is a copy of the python environment that is isolated from the system python environment. This allows for the installation of packages without affecting the system python environment. This is useful for when you want to install packages for a specific project without affecting the system python environment.
+# Question 5: What status code is returned for http://google.com ? What URL must you visit to get a 200 status code?# Answer: 301 Moved. You must visit https://www.google.com to get a 200 status code.
+# Question 6: What status code is returned for http://google.com/teapot? Is it the one returned by curl -i or curl -iL? What happens when you curl http://www.google.com/teapot?
+# Answer: curl -i returns 301 Moved. curl -iL returns 418 I'm a teapot. curling http://www.google.com/teapot returns 418.
+# Question 7: What changed in the output of https://webdocs.cs.ualberta.ca/~hindle1/1.py when you used -X POST? What is this method useful for?
+# Answer: diff.txt 
